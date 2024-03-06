@@ -1,0 +1,151 @@
+<!-- <!DOCTYPE html>
+<html>
+<head>
+	<title>MyPortfolio</title>
+	<meta name="author" content="Restu Aji Prasetyo">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width = device-width, initial-scale = 1.0">
+	<meta name="description" content="Ini adalah website portfolio saya">
+	<meta name="keywords" content="portfolio, personal portfolio">
+	<link rel="stylesheet" type="text/css" href="index.css">
+	<link rel="alternate" hreflang="x-default">
+	<link rel="icon" href="image.ico">
+</head>
+<body>
+	<main>
+		<h1>Saya <mark>Restu Aji Prasetyo</mark></h1>
+		<p>Dan ini adalah website portfolio pribadi saya. Mari eksplorasi karya-karya saya dan terinspirasi oleh cerita di balik setiap project. </p>
+		<div class="button">
+		    <a href="#who">Siapa saya</a>
+		    <a href="#project">Project</a>
+	    </div>
+	</main>
+</body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+<link rel="stylesheet" type="text/css" href="index.css">
+<style>
+body,h1,h2,h3,h4,h5 {font-family: "Poppins", sans-serif}
+body {font-size:16px;}
+.w3-half img{margin-bottom:-6px;margin-top:16px;opacity:0.8;cursor:pointer}
+.w3-half img:hover{opacity:1}
+</style>
+</head>
+<body>
+
+<!-- Sidebar/menu -->
+<nav class="w3-sidebar w3-red w3-collapse w3-top w3-large w3-padding" style="z-index:3;width:300px;font-weight:bold;" id="mySidebar"><br>
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-button w3-hide-large w3-display-topleft" style="width:100%;font-size:22px">Close Menu</a>
+  <div class="w3-container">
+    <h3 class="w3-padding-64"><b>Portfolio</b></h3>
+  </div>
+  <div class="w3-bar-block">
+    <a href="#" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Beranda</a> 
+    <a href="#tentang" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Tentang</a> 
+    <a href="#project" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Project</a> 
+    <a href="#kontak" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Kontak</a>
+  </div>
+</nav>
+
+<!-- Top menu on small screens -->
+<header class="w3-container w3-top w3-hide-large w3-red w3-xlarge w3-padding">
+  <a href="javascript:void(0)" class="w3-button w3-red w3-margin-right" onclick="w3_open()">☰</a>
+  <span>Company Name</span>
+</header>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin-left:340px;margin-right:40px">
+
+  <!-- Header -->
+  <div class="w3-container" style="margin-top:80px" id="showcase">
+    <h1 class="w3-jumbo"><b>Restu Aji Prasetyo</b></h1>
+    <h1 class="w3-xxxlarge w3-text-red"><b>Web Developer.</b></h1>
+    <hr style="width:50px;border:5px solid red" class="w3-round">
+    <p>Selamat datang di dunia kreativitas saya! Di sini, Anda akan menemukan koleksi karya-karya saya yang mencerminkan dedikasi dalam menggabungkan desain yang estetis dengan teknologi canggih. </p>
+  </div>
+
+  <!-- Services -->
+  <div class="w3-container" id="tentang" style="margin-top: 50vh;height: 100vh">
+    <h1 class="w3-xxxlarge w3-text-red"><b>Tentang.</b></h1>
+    <hr style="width:50px;border:5px solid red" class="w3-round">
+    <p>Saya Restu Aji Prasetyo yang berusia 17 tahun. Saya lahir di Pemalang tanggal 21 Januari 2006. Saat ini saya bersekolah di SMKN 5 Kota Bekasi. Beberapa hobi saya adalah menonton anime atau membaca manga. Saya memiliki cita-cita sebagai seorang programmer handal dan juga sebagai seorang Cyber Security.</p>
+  </div>
+  
+  <!-- Designers -->
+  <div class="w3-container" id="project" style="margin-top: 50vh;">
+    <h1 class="w3-xxxlarge w3-text-red"><b>Project.</b></h1>
+    <hr style="width:50px;border:5px solid red" class="w3-round">
+    <div class="project">
+    	<a href="#" class="kartu">
+    		<div class="description">
+    			<p style="text-align: center;font-weight: bold;">Soal-soal materi session & cookies</p>
+    		</div>
+    	</a>
+
+    	<a href="http://portlogin.rf.gd/" class="kartu" style="background-image: url('gambar_project2.png');">
+    		<div class="description" >
+    			<p style="text-align: center;font-weight: bold;">Login & register dengan session</p>
+    		</div>
+    	</a>
+
+    	<a href="https://log.aalora.repl.co/" class="kartu" style="background-image: url('gambar_project3.png');">
+    		<div class="description">
+    			<p style="text-align: center;font-weight: bold;">Login & register Prototype</p>
+    		</div>
+    	</a>
+    </div>
+  </div>
+
+  <div class="w3-container" id="kontak" style="margin-top: 50vh;height: 100vh;">
+    <h1 class="w3-xxxlarge w3-text-red"><b>Kontak.</b></h1>
+    <hr style="width:50px;border:5px solid red" class="w3-round">
+    <p>The best team in the world.</p>
+    <p>We are lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+    dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor
+    incididunt ut labore et quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    </p>
+    <p><b>Our designers are thoughtfully chosen</b>:</p>
+  </div>
+
+  
+
+<!-- End page content -->
+</div>
+
+<!-- W3.CSS Container -->
+<div class="w3-light-grey w3-container w3-padding-32" style="margin-top:75px;padding-right:58px"><p class="w3-right">Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-opacity">w3.css</a></p></div>
+
+<script>
+// Script to open and close sidebar
+function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+  document.getElementById("myOverlay").style.display = "block";
+}
+ 
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+  document.getElementById("myOverlay").style.display = "none";
+}
+
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+</script>
+
+</body>
+</html>
